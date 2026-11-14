@@ -1,0 +1,16 @@
+mir_01
+mir_02
+orbitalexpress_01
+orbitalexpress_02
+orbitalexpress_03
+orbitalexpress_04
+sentinel_01
+sentinel_02
+shuttle_01
+shuttle_02
+shuttle_03
+shuttle_04
+shuttle_05
+shuttle_06
+shuttle_07
+soyuz_01

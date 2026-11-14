@@ -1,0 +1,5 @@
+torch==2.15.0+cpu
+numpy==2.3.5
+Pillow==13.0.0
+matplotlib==3.10.8
+python-docx==1.2.0

@@ -1,0 +1,1 @@
+Additive skips changed test mIoU by +6.53 percentage points. This is a single-seed, small-data comparison on held-out spacecraft types; the result does not establish general superiority. Selected checkpoints use validation only.

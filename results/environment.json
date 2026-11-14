@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "device": "cpu",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "cpu_count": 9,
+  "threads": 2,
+  "cuda": null,
+  "gpu": null
+}

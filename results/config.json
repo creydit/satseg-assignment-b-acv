@@ -1,0 +1,16 @@
+{
+  "epochs": 40,
+  "seed": 42,
+  "size": 128,
+  "batch_size": 8,
+  "threads": 2,
+  "device": "cpu",
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "loss": "cross entropy + 0.5 foreground soft Dice loss",
+  "flip_probability": 0.5,
+  "checkpoint": "highest validation dataset-level mIoU; earliest tie",
+  "stopping": "fixed epoch budget",
+  "pretrained": false,
+  "split_protocol": "spacecraft type held out; fixed groups in data.py"
+}

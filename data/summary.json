@@ -1,0 +1,13 @@
+{
+  "train_images": 65,
+  "val_images": 19,
+  "test_images": 16,
+  "raw_colour_and_mask_bytes": 36698674,
+  "excluded": "all grayscale duplicates",
+  "duplicate_colour_sha256": false,
+  "license": "CC BY-NC-SA 4.0",
+  "doi": "10.5683/SP3/VDAN02",
+  "release_version": "1.1",
+  "custom_split": true,
+  "potential_remaining_leakage": "unrecognised related photos; target separation is not a provenance guarantee"
+}

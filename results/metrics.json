@@ -1,0 +1,75 @@
+{
+  "models": {
+    "baseline": {
+      "background_iou": 0.7955671647524296,
+      "spacecraft_iou": 0.33606601201190495,
+      "miou": 0.5658165883821673,
+      "pixel_accuracy": 0.8147378262253342,
+      "precision": 0.7332218679524068,
+      "recall": 0.38288324873096446,
+      "dice": 0.503067975669619,
+      "confusion_matrix": [
+        [
+          144977,
+          6861
+        ],
+        [
+          30393,
+          18857
+        ]
+      ],
+      "parameters": 98178,
+      "checkpoint_epoch": 19,
+      "validation_miou": 0.5444194739214964,
+      "latency_ms_mean": 9.636401920042772,
+      "latency_ms_median": 8.861409000019194,
+      "latency_ms_p95": 13.332310150008198,
+      "training_seconds": 78.23775937399978
+    },
+    "skip": {
+      "background_iou": 0.8217030084781808,
+      "spacecraft_iou": 0.4404997063691207,
+      "miou": 0.6311013574236508,
+      "pixel_accuracy": 0.8436505410566518,
+      "precision": 0.7809502776375568,
+      "recall": 0.5025989847715736,
+      "dice": 0.6115929137943814,
+      "confusion_matrix": [
+        [
+          144895,
+          6943
+        ],
+        [
+          24497,
+          24753
+        ]
+      ],
+      "parameters": 98178,
+      "checkpoint_epoch": 37,
+      "validation_miou": 0.5289587675238848,
+      "latency_ms_mean": 9.735310319988457,
+      "latency_ms_median": 8.690006999813704,
+      "latency_ms_p95": 13.633751050269893,
+      "training_seconds": 79.92954300100018
+    }
+  },
+  "latency_protocol": {
+    "device": "cpu",
+    "threads": 2,
+    "batch_size": 1,
+    "input_shape": [
+      1,
+      3,
+      128,
+      128
+    ],
+    "precision": "float32",
+    "mode": "eval + inference_mode",
+    "warmup": 20,
+    "repetitions": 100,
+    "includes": "model forward pass only; excludes disk IO, preprocessing, transfer, argmax and rendering",
+    "test_images": 16,
+    "metric_aggregation": "sum confusion matrices across all valid test pixels; exclude padding ID 255",
+    "threshold": "argmax of 2 logits"
+  }
+}

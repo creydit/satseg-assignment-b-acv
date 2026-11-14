@@ -1,0 +1,15 @@
+{
+  "pair_count": 100,
+  "split_counts": {
+    "train": 65,
+    "val": 19,
+    "test": 16
+  },
+  "initial_weights_identical": true,
+  "known_iou_test": "passed",
+  "tiny_training_images": 4,
+  "tiny_training_steps": 40,
+  "initial_loss": 0.817196249961853,
+  "final_loss": 0.1774047315120697,
+  "passed": true
+}

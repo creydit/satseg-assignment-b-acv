@@ -1,0 +1,1527 @@
+{
+  "size": 128,
+  "groups": {
+    "train": [
+      "ISS",
+      "cubesat",
+      "cygnus",
+      "dragon",
+      "htv",
+      "hubble",
+      "shenzhou",
+      "tesla"
+    ],
+    "val": [
+      "radarsat"
+    ],
+    "test": [
+      "mir",
+      "orbitalexpress",
+      "sentinel",
+      "shuttle",
+      "soyuz"
+    ]
+  },
+  "records": [
+    {
+      "id": "ISS_01",
+      "split": "train",
+      "original_size": [
+        650,
+        435
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.24127906976744187,
+      "image_sha256": "afe6f5d51ac5dd65f402a701eb110b89f7762b67f11a76eeecde44a89576f096",
+      "mask_sha256": "c9cdd3c33388a94b5310936158ecdb341a3dbfaf8603612f97a29c503b1254bf"
+    },
+    {
+      "id": "ISS_02",
+      "split": "train",
+      "original_size": [
+        808,
+        606
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3798828125,
+      "image_sha256": "1e5e08ff522cde9a03f54b714b263b5b29ae5e23e66acd7fb199e46abd5aa6a6",
+      "mask_sha256": "dcb8882b71a85cc61463e1ef76b06a043c28d4336720b2c91c4fb6d515bbd8ad"
+    },
+    {
+      "id": "ISS_03",
+      "split": "train",
+      "original_size": [
+        809,
+        608
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.471435546875,
+      "image_sha256": "6b15e7b0648089a55c6ab0af68da32c5eb882a8cb4fa89c919f98c53bd3a9566",
+      "mask_sha256": "37754b6c67f9b7f00a7580aabfbb62c9bd74a06f2ef63e9ebb03531c49684e73"
+    },
+    {
+      "id": "ISS_04",
+      "split": "train",
+      "original_size": [
+        809,
+        607
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.679443359375,
+      "image_sha256": "341b7e3b8c345b4459e352190cc08eae79b8218c193a357248c4f7e9cd0f276d",
+      "mask_sha256": "57d19c64557ad47bb54b2d8806f7f5988a5f181d4beda5f96552856f1ddff1c9"
+    },
+    {
+      "id": "ISS_05",
+      "split": "train",
+      "original_size": [
+        808,
+        604
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.336669921875,
+      "image_sha256": "8b3f4773b4e22b9bf119110b96055b474be9cb21195fda592962c2f850f6f146",
+      "mask_sha256": "28f06b2e9ab0b11ef79815c98f086b4bd141155debb972b3f48de451df8ba4cd"
+    },
+    {
+      "id": "ISS_06",
+      "split": "train",
+      "original_size": [
+        811,
+        606
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.462158203125,
+      "image_sha256": "fe15d97aa3de88b9be92ca7af127468c16bf27e4d05c778522d6d11c059e2442",
+      "mask_sha256": "506fe68e320ebd27fbd6e17f99d8c07b92c0713ec9bc1333280fced6b6fd151f"
+    },
+    {
+      "id": "ISS_07",
+      "split": "train",
+      "original_size": [
+        812,
+        607
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.24479166666666666,
+      "image_sha256": "fd8caebc253f2d4f5ba18ffdd1b4cb6c821fee35d1ac06a5544121e9c5a401eb",
+      "mask_sha256": "6383682e69c5d36244e0b72b417e1230b28ec2a8c38e2942e7eacf79536fc490"
+    },
+    {
+      "id": "ISS_08",
+      "split": "train",
+      "original_size": [
+        800,
+        532
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.20018382352941178,
+      "image_sha256": "30726e8947f1d59ee6a8f838fe1946e9f8dbbb5a42f0bdfe361088061944a37b",
+      "mask_sha256": "5aae31abc24fd2b2444b81a34d6a4481094bc3f7823035fbc47ccf85a8852083"
+    },
+    {
+      "id": "ISS_09",
+      "split": "train",
+      "original_size": [
+        375,
+        300
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.2340686274509804,
+      "image_sha256": "59a11ff5f525110c702edfec49a2513bca16f1d8fd5bfc5eea3c2d71afc5f205",
+      "mask_sha256": "b68a5ac5e309fe22d28d0cf7dfa83f1395cd117683387fff54fb8f3a0a75ee7e"
+    },
+    {
+      "id": "ISS_10",
+      "split": "train",
+      "original_size": [
+        640,
+        417
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.17620481927710843,
+      "image_sha256": "b4cea8203e95b7e83077691ef8929575fccc44f9756accd07c8454f120bc7e2a",
+      "mask_sha256": "b2831a0517644fd5537e2ab6c531dacdda78da34daf5d9d0b527caab697dc37f"
+    },
+    {
+      "id": "ISS_11",
+      "split": "train",
+      "original_size": [
+        580,
+        441
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3193460051546392,
+      "image_sha256": "810a6029ab0601b583788a127d2171a8c5f666d4800e7dd0c77e909c70098554",
+      "mask_sha256": "052045bf20e8f5f5ec3a628a3729fc232eef4007e2125fae5b91cecc67544583"
+    },
+    {
+      "id": "ISS_12",
+      "split": "train",
+      "original_size": [
+        1280,
+        720
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.11946614583333333,
+      "image_sha256": "49dcb7632ad0741dacc60ff020c97307c628a52c3dde3001fe457379347ba0d1",
+      "mask_sha256": "d4c320cb76aadc6ae81593ef86271fff3dfcf5100ab07c3d01935fe5778cd0fe"
+    },
+    {
+      "id": "ISS_13",
+      "split": "train",
+      "original_size": [
+        614,
+        415
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.19432471264367815,
+      "image_sha256": "ca9b7c8f108ed7911d70536711d5f1e400d8bbf4fd676e868d936f9995e2547e",
+      "mask_sha256": "f25c59d847accd6e3b380765f45c6a4f589ca8bc6c41b668c7242ac375f0e77f"
+    },
+    {
+      "id": "ISS_14",
+      "split": "train",
+      "original_size": [
+        800,
+        531
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.1265625,
+      "image_sha256": "a4945b79779f1b0675cb1f2550e1d045fe418d32c15519804da87788501a7f52",
+      "mask_sha256": "2d4e6828df7684e952988dc78884ee14da3b5fd1f0f95ac82cacd0193795d831"
+    },
+    {
+      "id": "ISS_15",
+      "split": "train",
+      "original_size": [
+        3065,
+        2029
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.17895220588235294,
+      "image_sha256": "f619f3c2ed1453a2af17e307aade1cb67ce58d213b85776d37c656f08cc7ff89",
+      "mask_sha256": "43c4b46e2528cb9ffc4c660541c96d2a86f969ef5b66e02953618c89fb34d221"
+    },
+    {
+      "id": "ISS_16",
+      "split": "train",
+      "original_size": [
+        560,
+        338
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.13616071428571427,
+      "image_sha256": "109d5e6a859ed66674ae57cd8b66c9ed0e8d5efc0bc9eeb69c6426eff15f46d3",
+      "mask_sha256": "51e37bc2e56c50c04fc4c735bf962c0c2f3eca9f117e19d19a92440c88d5c943"
+    },
+    {
+      "id": "ISS_17",
+      "split": "train",
+      "original_size": [
+        3010,
+        1999
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.11966911764705883,
+      "image_sha256": "7d45c03374ab9709682a97f72f8044627a1e24b64d3dfd7d25d6a6c0b106a4ef",
+      "mask_sha256": "00419d89e557deec553168e2bbdd3383b608d0f74692191f36d46454d5b875ff"
+    },
+    {
+      "id": "ISS_18",
+      "split": "train",
+      "original_size": [
+        810,
+        607
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.145263671875,
+      "image_sha256": "56b7e8dd0095f59998264def102de4c0547fc919c8a17482bc72757eb4868874",
+      "mask_sha256": "500aa96c7d150b467f96e08e6d44cf148a55d7e8271a89bb49d6a5b628aa0d05"
+    },
+    {
+      "id": "ISS_19",
+      "split": "train",
+      "original_size": [
+        809,
+        608
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.10701497395833333,
+      "image_sha256": "7f8348effc64ef85721b1550734c023faf4dd8784188cb2659bbe4abfaeb70dd",
+      "mask_sha256": "f4545ae4a190ba10d5682ec7144721f343cfffbe6b2f0db39d7817206b66bfdd"
+    },
+    {
+      "id": "ISS_20",
+      "split": "train",
+      "original_size": [
+        815,
+        607
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.0705592105263158,
+      "image_sha256": "db9ea5bd9049c3e7b7e0e692c5f482fe35a3264d0a8c9e83ef71952cd703c095",
+      "mask_sha256": "acaf4cd3c484b67a73cca3b6a640e6d28fefe79e968c5d6b324932244ffd0146"
+    },
+    {
+      "id": "ISS_21",
+      "split": "train",
+      "original_size": [
+        809,
+        607
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.07145182291666667,
+      "image_sha256": "69b470bc190f39fa6991aeff7d083cd88080104b8c3fcde023a06a2e93f7a38a",
+      "mask_sha256": "8988aa3ea2d92febcc20cf6a1b17a4edb002cc043cd9f51da15db249c92da881"
+    },
+    {
+      "id": "ISS_22",
+      "split": "train",
+      "original_size": [
+        815,
+        608
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.07171052631578947,
+      "image_sha256": "800070dbcd7cd2ee9b2277f315f1af80a8c3684162656228bdb7192f35a62342",
+      "mask_sha256": "8f84309a927f19a9e0f4eb140e462b5c9452d24274228f65ca71336f796d3393"
+    },
+    {
+      "id": "ISS_23",
+      "split": "train",
+      "original_size": [
+        808,
+        604
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.08406575520833333,
+      "image_sha256": "1d58b507407d31cda6d31cc08a4fb333c5fa5b234b188eec44621522dce64f8f",
+      "mask_sha256": "e1cfe74dbd66870e369dc1fd26c2e27a12e60bec15b115dc1427288e6d991fad"
+    },
+    {
+      "id": "ISS_24",
+      "split": "train",
+      "original_size": [
+        812,
+        606
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.12255859375,
+      "image_sha256": "6834d984b604e22731270f94660dc9cae2f1126fdc2990c33d0a41ddf69488cc",
+      "mask_sha256": "187539bb5c6c93b17c201a22d98fef80e1e012ec8a55102391d441cda1250c55"
+    },
+    {
+      "id": "ISS_25",
+      "split": "train",
+      "original_size": [
+        808,
+        605
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.16682942708333334,
+      "image_sha256": "d341de734a19091ab5353f6663c61f0ad9ed63e985f40198196c153d5cffc0eb",
+      "mask_sha256": "d7112f6e771022a9ccd24843413b584b2dc25188149ca2878700a7b6e54dc6ec"
+    },
+    {
+      "id": "ISS_26",
+      "split": "train",
+      "original_size": [
+        811,
+        607
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.2836100260416667,
+      "image_sha256": "d720ae67ebcafbd8a927d8d3d7f058299e15f722689be1288ec8bffa695141b2",
+      "mask_sha256": "34501ab3b1f0c020d386d70feb25f9c810e7e3d76a2401336124bbae924f5fb8"
+    },
+    {
+      "id": "ISS_27",
+      "split": "train",
+      "original_size": [
+        810,
+        608
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.32861328125,
+      "image_sha256": "99c6956c7b0ebe0b33bdfb14e0fac6d2dbdcdd6cdcd9192248165518e541e439",
+      "mask_sha256": "9cfcdd757a0407ff17ddcd4c3fce967b48590a70767aef77423cf609f3995940"
+    },
+    {
+      "id": "ISS_28",
+      "split": "train",
+      "original_size": [
+        807,
+        603
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3474934895833333,
+      "image_sha256": "22931a5cb31ed653e8f069bd8193b38b2d359cecc9794e496f83945c88086926",
+      "mask_sha256": "e956941e424f2083c74d18a234518a1df9e90b88c4e963559847dbe9cd11b0cf"
+    },
+    {
+      "id": "ISS_29",
+      "split": "train",
+      "original_size": [
+        808,
+        607
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3319498697916667,
+      "image_sha256": "e920ebb32718d94d422b36bdc999d87548abfc1d870d3208ab36e9bdae1f9e8f",
+      "mask_sha256": "27befe878ba34a71999c72051fcabbf7d44b7eac55cb6d6311e96b68f5d5a663"
+    },
+    {
+      "id": "ISS_30",
+      "split": "train",
+      "original_size": [
+        811,
+        609
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3224283854166667,
+      "image_sha256": "5b8a313df18326b568715a06369965834926b0c83de2f526339138dec15e5892",
+      "mask_sha256": "443a4be02c0b0879eef3a6110c9ffe729de427c59eb5e7e52e1a36200a1a145a"
+    },
+    {
+      "id": "ISS_31",
+      "split": "train",
+      "original_size": [
+        811,
+        605
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.2381578947368421,
+      "image_sha256": "b99ec729b985f6fcca5ac6ab78f3828bf0d40caa5b132bd3bf6cfc176c4a5154",
+      "mask_sha256": "f4281e734bfb8caeae99c424c1db0f437468bd1dc42d9db9d960b967baa82b54"
+    },
+    {
+      "id": "ISS_32",
+      "split": "train",
+      "original_size": [
+        812,
+        605
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.21134868421052633,
+      "image_sha256": "4644216495a9a842b0dc5dc91452f773df834c18a829a6c7f05078a09d847fe8",
+      "mask_sha256": "fe6744dd3677ec946a042e3bd5fa36757334ba581c1708a7d5d100ef980c6570"
+    },
+    {
+      "id": "ISS_33",
+      "split": "train",
+      "original_size": [
+        812,
+        607
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.19938151041666666,
+      "image_sha256": "44d947321d3df2a135c1270defc75fcba99979ca04cfa2c4f5bd123552a51c38",
+      "mask_sha256": "b6d0578725bcea24f57705732f5fac345c21d32f86c523470c28d20ecc32a1cc"
+    },
+    {
+      "id": "ISS_34",
+      "split": "train",
+      "original_size": [
+        811,
+        606
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.231689453125,
+      "image_sha256": "39dd83b11dd22ea6944213c4a3685c7c9b7925207d7d3df84b70bae76cb90e0f",
+      "mask_sha256": "2e7674f46b7e5de477b762aed198a60e3da9c0f759b15e46aca86a70a04c81c6"
+    },
+    {
+      "id": "ISS_35",
+      "split": "train",
+      "original_size": [
+        810,
+        606
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.246826171875,
+      "image_sha256": "3a9a7fc32458fd8f7f405e7fdbd84c8fb22a5fdbf2a402e29533a7dbd5cf9d4c",
+      "mask_sha256": "5600700c0d7dfc15ccedd6c8ce18946e2b1b5f8adf269e4685631a48dacfe055"
+    },
+    {
+      "id": "ISS_36",
+      "split": "train",
+      "original_size": [
+        809,
+        602
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3148026315789474,
+      "image_sha256": "ca8aa2c35fb9ce34266058301eb7d2f483875ad0232b567a21c0771bccf86320",
+      "mask_sha256": "18fd7b95b2943bd88b3c2b94f2d0e381977caf3a0d56d5c843400e1b86a9d37a"
+    },
+    {
+      "id": "ISS_37",
+      "split": "train",
+      "original_size": [
+        810,
+        605
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.307373046875,
+      "image_sha256": "e460bf0fa8fed424646f4364831c0c845f6c76fa553c917f32fc84269b472167",
+      "mask_sha256": "8e2dc1c20109b5bf9c20e513efda86c5b76d6a05920f4161e915bced4e0b05e7"
+    },
+    {
+      "id": "cubesat_01",
+      "split": "train",
+      "original_size": [
+        750,
+        422
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.009982638888888888,
+      "image_sha256": "c720018db80a003e3e3b0cbe8e8fd2fe111dc971a859acea1200b741deaa6c42",
+      "mask_sha256": "c397b0bf79627a5d5cd304792e2f2856f6d9cae49343199b2fe805d98d003c8d"
+    },
+    {
+      "id": "cubesat_02",
+      "split": "train",
+      "original_size": [
+        750,
+        422
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.030924479166666668,
+      "image_sha256": "c840ebf19059f19424aa4b0a46936155284853e08c4e641d30a954b190a58a81",
+      "mask_sha256": "3dba063d30420ef146fa984394098ae516033046fc198ea1b2ecdb0cfa5d43a8"
+    },
+    {
+      "id": "cubesat_03",
+      "split": "train",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.0135498046875,
+      "image_sha256": "7dadb1eeab5ad1429c4de8be3e4167ea053a4c02d9bc2de6fa3ca270dc2f49c2",
+      "mask_sha256": "03df46c3ae93c2c6e68aba98ee94a75a09a8f8371891bff56873d850258b06d7"
+    },
+    {
+      "id": "cubesat_04",
+      "split": "train",
+      "original_size": [
+        253,
+        209
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.1626621462264151,
+      "image_sha256": "8908e74983da76df82ff6e13c6287b6d7fd0d663311740dfa1ef292b55f5b3a3",
+      "mask_sha256": "1fd13981f9b455949fb960d2284d423434783b90fc4c5eaa3587c54528f76c06"
+    },
+    {
+      "id": "cubesat_05",
+      "split": "train",
+      "original_size": [
+        1296,
+        973
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.05029296875,
+      "image_sha256": "1a5e0f3a8ac6ef9e4dfb914cfcfc87203fe9ca04d2d6c6b6b2885f2624bddb26",
+      "mask_sha256": "5b499307b846d3c46e047c629421c8fda732b3a0b75a6bbf8c119923ff087c0e"
+    },
+    {
+      "id": "cubesat_06",
+      "split": "train",
+      "original_size": [
+        275,
+        183
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.009926470588235294,
+      "image_sha256": "b1064acf2bca2a1ce1ebaa29aa43522042a322a9b9615c132a8ec91f0b6a7d7b",
+      "mask_sha256": "e17eaf1be5ea38b48adfeca060e8e88346112cac3999d82838ac62a42cf6b658"
+    },
+    {
+      "id": "cubesat_07",
+      "split": "train",
+      "original_size": [
+        4940,
+        3292
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.0024816176470588234,
+      "image_sha256": "b6af7825dc11aa166a7324c98cd346a45c2be71817ce48d37709e587ab17e00f",
+      "mask_sha256": "4153e456d2e72f7e901d34a38c31277491f478dccfaf12d49462f35c13b01fd2"
+    },
+    {
+      "id": "cygnus_01",
+      "split": "train",
+      "original_size": [
+        1500,
+        998
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.0453125,
+      "image_sha256": "1ba05290c141ad2d892d212239e2c77c083434e9bd4afab01084f7022fa74a9c",
+      "mask_sha256": "019d664f2ff622eb3d35a5a3c5ce9b2248b8bc1da8b7c58b33518054a1c3a056"
+    },
+    {
+      "id": "dragon_01",
+      "split": "train",
+      "original_size": [
+        267,
+        227
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.4584288990825688,
+      "image_sha256": "8b50f5739c8a48c81464f424a0cfb786def52dad7c59bce7dc09ac25009976bb",
+      "mask_sha256": "ed0befe49fff8aa625c6e1e57cbbcb0f4c854f20094770720c641eeee82e649b"
+    },
+    {
+      "id": "dragon_02",
+      "split": "train",
+      "original_size": [
+        319,
+        228
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.47948145604395603,
+      "image_sha256": "38b0d8e682c3773a911607a269cf3c931de444f8f7d348f89d3e2302f8d18308",
+      "mask_sha256": "3a9183006f883ac051a1a5cf7cdbda008b728b46bf05f2f1fdf7e365ee0285d4"
+    },
+    {
+      "id": "dragon_03",
+      "split": "train",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.264404296875,
+      "image_sha256": "c928e7299496548ba5f1c0c6caa25c1a80b6e3d392367233ae790240f3f42f30",
+      "mask_sha256": "97709218dc0a40c4c106efe380a80d618d42e4fda6944c6ab478cba2021ec2b4"
+    },
+    {
+      "id": "dragon_04",
+      "split": "train",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3592936197916667,
+      "image_sha256": "b043f5512d4c46a4d55d68cf820bff705131649e8d7b0be4ef849994fc7f5529",
+      "mask_sha256": "e792ba84e02d4df34effbc93d35ed5d54deea6fded520db1f74e44808610fc9b"
+    },
+    {
+      "id": "dragon_05",
+      "split": "train",
+      "original_size": [
+        4928,
+        3280
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.05091911764705882,
+      "image_sha256": "2b669b6bb6e79648533ba90789d6493e2ae727ab7def19d9f6b4e439870e3d6f",
+      "mask_sha256": "7b533d14853a9df61ec791fc9a05c10c52275da49235a9095f98b825abf06074"
+    },
+    {
+      "id": "dragon_06",
+      "split": "train",
+      "original_size": [
+        4928,
+        3280
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.1786764705882353,
+      "image_sha256": "5a36962e114b1ab3c80f006fa35337dcbf631b15ebac5adf9b80aa5ae39836cd",
+      "mask_sha256": "f813e37ebe088123398d18aa8930b574c6bfded6244ad03d2bb4c57e0e719c1e"
+    },
+    {
+      "id": "dragon_07",
+      "split": "train",
+      "original_size": [
+        4928,
+        3280
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.06056985294117647,
+      "image_sha256": "e3bc3288077af9f0a1610782b1d5e1603a6326f94e3164ef366a345e431102ad",
+      "mask_sha256": "dc900b4b896d6d25ab8eda029709760b898ca4fb34509bdb7216f7233920c31f"
+    },
+    {
+      "id": "dragon_08",
+      "split": "train",
+      "original_size": [
+        4928,
+        3280
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.06369485294117647,
+      "image_sha256": "225f97a9af964d18c8b06ed675d488fe5d8986c309c98a86caaf23319f0584c3",
+      "mask_sha256": "01d8a3d91891efef47aecfd04917c6a7bcd5d4a7f7911667863e056be931b786"
+    },
+    {
+      "id": "dragon_09",
+      "split": "train",
+      "original_size": [
+        251,
+        239
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3666752049180328,
+      "image_sha256": "a40a46cf9b08d95363462a1ae37d82dd0616496771bfb447b532e5f60be376b5",
+      "mask_sha256": "b0d8cb72ebf94896bbf35b51cc40a9ee847ed5735add0259a0e91e6015ca31dd"
+    },
+    {
+      "id": "dragon_10",
+      "split": "train",
+      "original_size": [
+        176,
+        235
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3519694010416667,
+      "image_sha256": "09b7196b359e5c9aa9d3e6261df66e50ae506c008122d9ea6822cda75f8db26e",
+      "mask_sha256": "0e9362cb582a494bba860414261203219b22ce5371ac7cc793daf9becfeb11a9"
+    },
+    {
+      "id": "htv_01",
+      "split": "train",
+      "original_size": [
+        398,
+        264
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.28455882352941175,
+      "image_sha256": "44fcdf379ff9d275a9f2d820a004c3d2981465527655f7047bcffcf6edfb54b3",
+      "mask_sha256": "57edce691bef197de59939079f2c0a3e8f1571ad8b10502e8873cdf0282eb5c1"
+    },
+    {
+      "id": "hubble_01",
+      "split": "train",
+      "original_size": [
+        1158,
+        752
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.4052146084337349,
+      "image_sha256": "c41da8ad8d1548144c358b41649664b8cb7d0a4dee39cf8b0b54d77cecdd9750",
+      "mask_sha256": "7ef87b5d62ce45197adffa884ab99d2cb0e88050155b352607e40c3f0021180a"
+    },
+    {
+      "id": "hubble_02",
+      "split": "train",
+      "original_size": [
+        507,
+        469
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3557335805084746,
+      "image_sha256": "849e7d87d1f6bb393c2cfb203fdade5965f0f0f892d1a648ab614ee4ac2e3861",
+      "mask_sha256": "0f6f2c63fe117ae3b7417ce8d8ca9d1c1345a8f3032852bfbef2a7161ae97663"
+    },
+    {
+      "id": "hubble_03",
+      "split": "train",
+      "original_size": [
+        640,
+        426
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.614797794117647,
+      "image_sha256": "daa65fbe9e10453b9b6338ababa23359505064bc5a455d5406d43334817a5c33",
+      "mask_sha256": "3e775b3dd97bbdf705d6a1ddb7abf231626f886d36647e888906d7adfdb0de21"
+    },
+    {
+      "id": "hubble_04",
+      "split": "train",
+      "original_size": [
+        720,
+        722
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.0478515625,
+      "image_sha256": "043a6079ff71f505604fb32367e3675aaaac4f12352183d2e424be36f91ee150",
+      "mask_sha256": "117a7ae63e9222c744271c50511e9bfbb901b07ac792fd321b865675498744a9"
+    },
+    {
+      "id": "hubble_05",
+      "split": "train",
+      "original_size": [
+        640,
+        360
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.08702256944444445,
+      "image_sha256": "01de5a5c825628ea9c13d101e34d819b96beb8634bd6a0047662763c9ae87ded",
+      "mask_sha256": "6f39d99ef173b0b4f5c076c04968a3a5e2dec717980491c779ebc5e167904f3f"
+    },
+    {
+      "id": "hubble_06",
+      "split": "train",
+      "original_size": [
+        517,
+        477
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.1534030720338983,
+      "image_sha256": "e0a867c6eb339e920cab4fe0b0b12057eb218f2a2fe9cf041d3ed114a70062c4",
+      "mask_sha256": "9b64b797f33e3073437dd91f153bcf160d83b47dbc70f461abc31b8aa6a22b08"
+    },
+    {
+      "id": "mir_01",
+      "split": "test",
+      "original_size": [
+        1558,
+        1033
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.2140625,
+      "image_sha256": "e831cd5a5649d1cccb1ec69ae621dba3ec1e8bb44fa06f9f765c921b39e921f2",
+      "mask_sha256": "668578f39a7d3151fd5b54dbb45e7c0bf43a7d4b9c0ccad8cf07222b85d50b19"
+    },
+    {
+      "id": "mir_02",
+      "split": "test",
+      "original_size": [
+        648,
+        365
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.0652126736111111,
+      "image_sha256": "adffc068f47078c13cbb6b20150a1049cf0b2c7b5ea1052904fae788afa95187",
+      "mask_sha256": "02f86cc06521b1ac56c00bcc535cf1ca604a34280cf0028e049b38ac45ed6cf3"
+    },
+    {
+      "id": "orbitalexpress_01",
+      "split": "test",
+      "original_size": [
+        600,
+        400
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.05018382352941177,
+      "image_sha256": "688ebed072b7037766f2cdb60002266863aeeb2b86876e6c7c075b1dda58f60c",
+      "mask_sha256": "06edcb2feea5b79d993cb124516cd47b8ce6ba192d94b87dd3b9604e98820d5d"
+    },
+    {
+      "id": "orbitalexpress_02",
+      "split": "test",
+      "original_size": [
+        800,
+        800
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.03717041015625,
+      "image_sha256": "63b15d44d1a79526f994a1e2d7d856483fec21284bd1fe293270b050422f7825",
+      "mask_sha256": "e47b6e0fab83dad6ecb0e53d4148f915865f6806cb51aa277e2caa383cc71dcc"
+    },
+    {
+      "id": "orbitalexpress_03",
+      "split": "test",
+      "original_size": [
+        197,
+        197
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.72393798828125,
+      "image_sha256": "20d3324c71ff9f4ab31c6f32f98f3f296cb745669860db4d91a4bcbe47e1f484",
+      "mask_sha256": "7c793abde14b63661c7287344b8ca24122e076659d32ffbf5954f2f42ffa69c2"
+    },
+    {
+      "id": "orbitalexpress_04",
+      "split": "test",
+      "original_size": [
+        500,
+        500
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.61444091796875,
+      "image_sha256": "465c932ba8a653774ec612c4d810508ae2d8b381b5984cf462e39b8d53f3d35a",
+      "mask_sha256": "73efd28083d0619eb4c084ab376613331472ada95e6bc4db43098b48a6626fd3"
+    },
+    {
+      "id": "radarsat_01",
+      "split": "val",
+      "original_size": [
+        1296,
+        972
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.058919270833333336,
+      "image_sha256": "73e1715a22e2ec8c53d07cc955da5b98d5d59c71b81dfd33b1ba0d6d69cdb6e9",
+      "mask_sha256": "d27630dd0f0009c7e5ed723252ca25d61d9ad88a3acf04f9de7f54020edbb2d2"
+    },
+    {
+      "id": "radarsat_02",
+      "split": "val",
+      "original_size": [
+        1296,
+        972
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.044026692708333336,
+      "image_sha256": "f9d4af3803f57bd8293e485be0cffb9ee6114b9e7c03f4f2d7a7cf9d84bb492b",
+      "mask_sha256": "29bd893d44bef52b813ec91cfdde5c66dbde3002be5cc9f0fbce9335201c2db0"
+    },
+    {
+      "id": "radarsat_03",
+      "split": "val",
+      "original_size": [
+        1296,
+        972
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.051025390625,
+      "image_sha256": "4157f33fa143048da5c2064bc81877daeb06bb59a13943e1c8906b902520013d",
+      "mask_sha256": "b5fec8ca32b1aad3b074178e41dd7feeaccad687b0e03e47b8b57978e9b89f90"
+    },
+    {
+      "id": "radarsat_04",
+      "split": "val",
+      "original_size": [
+        1296,
+        972
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.035563151041666664,
+      "image_sha256": "fea206e4ddddf2ebc67e2b14ffe660201d0fb086aa2942553fc139c6104b57cb",
+      "mask_sha256": "4c9640bc2edc8bab7dc33f43e84515f40862063c31da17e6ecde4ea51bfa4a14"
+    },
+    {
+      "id": "radarsat_05",
+      "split": "val",
+      "original_size": [
+        1296,
+        972
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.024820963541666668,
+      "image_sha256": "6e780c9b72a8630887f81b0b0fbfe95e67a280ff1196a6677ae724739f6944cf",
+      "mask_sha256": "da4da3bae5945e2d2de4e0dd8d310f8c5772744daed194edec698532e7a29aa0"
+    },
+    {
+      "id": "radarsat_06",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.016438802083333332,
+      "image_sha256": "7d8b41ba3a6b231a393301ce10a8841c6b31664062ffe98fc3e5db9820215f6b",
+      "mask_sha256": "31603ed8034f4b5c0ce68f0539883071ef53253c14b73b53616fdc8b8535c6f0"
+    },
+    {
+      "id": "radarsat_07",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.045735677083333336,
+      "image_sha256": "12d13e3de645577353f6a01d1336594294780c2548efecff80b1caaabd3b8d2e",
+      "mask_sha256": "b21a0d2f841ee1c5986b45063e9b0a78aa1fecec5e0ca5fd0b84970b487cbbf2"
+    },
+    {
+      "id": "radarsat_08",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.029866536458333332,
+      "image_sha256": "6e5d934f71e87b819242dd7623124362738ee72bec537d09a2f41ef0840720a1",
+      "mask_sha256": "a6867d6cb616b034ab61c89215cb698c703a217da5f5a2adb171bfc0a5e2a7f4"
+    },
+    {
+      "id": "radarsat_09",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.071044921875,
+      "image_sha256": "0fa6d036273a59516edcefc0c58e3a615313de89daf0220f3fefc0aedbb82e4c",
+      "mask_sha256": "233bd509f686106da0b346db414380c8835b4e371d16d503c4c960cf2d44163f"
+    },
+    {
+      "id": "radarsat_10",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.062174479166666664,
+      "image_sha256": "c600ee62b210f89d9789731f08983ef7529b035d1c5e0894acdd26ae4a6d0cd1",
+      "mask_sha256": "bc0848ee48ea2cd4ce9c14fdd4b00968b471f2b65b776cadcca2537e068616c9"
+    },
+    {
+      "id": "radarsat_11",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.07771809895833333,
+      "image_sha256": "38f2deb10478c4c4e6b36d7cc3d0452b049285c984cbb0caa617786f41aba3c0",
+      "mask_sha256": "b4fc5a9f40aaee943cc11f038a515c0ffccde1737ade405915e014c5941e6c17"
+    },
+    {
+      "id": "radarsat_12",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.08610026041666667,
+      "image_sha256": "fbb9d023980bc9b30fa707b35f3c9ac8075259663e931334bcbb9c0286dcc7e3",
+      "mask_sha256": "1d90f836038598b1b3e7696444bf828665857f2cdc8602919420fffebbcfdde0"
+    },
+    {
+      "id": "radarsat_13",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.040771484375,
+      "image_sha256": "4346501e5249d722b633e57aff45cdc407728f63ad2266fed4f009ffde6f15b0",
+      "mask_sha256": "da957cb5cc51fa859af59a5f83dae8aa7347fa4300b46be7c8e29bd5714287ce"
+    },
+    {
+      "id": "radarsat_14",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.032958984375,
+      "image_sha256": "b3aaf30d4b2e31caa00321dfc4cf0dac6e9cd3d2e4fe0d479bc4e62f8abeec24",
+      "mask_sha256": "1031b6ea10555eae3abb2de57b09721e42aaab88bdacae3db9d016654bf558dc"
+    },
+    {
+      "id": "radarsat_15",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.034993489583333336,
+      "image_sha256": "8391a2bbdd054c81c79d33ad3283d6b0dd2562838ae8b5a0b65ecb2eac46fc08",
+      "mask_sha256": "261910e1c29188a469ed21212b6bacf9b0fdb31806decafda0fe4b7875901a6e"
+    },
+    {
+      "id": "radarsat_16",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.021647135416666668,
+      "image_sha256": "d8cf1b8275fd481fa00f689a22d8ae3c98084caa9af67e1fe8508fcfbfbde5a9",
+      "mask_sha256": "fa8e7e17cfca1051dc8784eab597d55c5e98a1a4c7d00f983e4fd94dcce5af6b"
+    },
+    {
+      "id": "radarsat_17",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.095947265625,
+      "image_sha256": "e1bed1a40d32c2e7487b9506dadc69bd2646aed947cc8d6de2831e3411869355",
+      "mask_sha256": "3f977a85416ee7f43a608c22554ce8d5fb51f1ff7231dd2b4cc95f7b3b754e61"
+    },
+    {
+      "id": "radarsat_18",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.048095703125,
+      "image_sha256": "236a1471f08b3e03dad448081f1f6015e8ad574c166811872fc1c311014d8edd",
+      "mask_sha256": "46d63befb52ac6a3d62affa9f3751df4458283f17cbe6c152a531303bbdbd341"
+    },
+    {
+      "id": "radarsat_19",
+      "split": "val",
+      "original_size": [
+        320,
+        240
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.094970703125,
+      "image_sha256": "1671a3f5ce1faa66a6cbeaf5bf7fcf2b14d2a24579b36e684f27bf4b09ccc1b7",
+      "mask_sha256": "ec764d780d1ecf59d1ab1553805f4b65369a276a36949dba3d6f320d6ef6de14"
+    },
+    {
+      "id": "sentinel_01",
+      "split": "test",
+      "original_size": [
+        592,
+        556
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.099609375,
+      "image_sha256": "95536c32c9849e087598c3c9c201fbd99424748b00351fad11d70a415ef6bc00",
+      "mask_sha256": "ee38fef60a36fdaf5102c467db03e1075445bb65957857cc2d1f9e649c487250"
+    },
+    {
+      "id": "sentinel_02",
+      "split": "test",
+      "original_size": [
+        1164,
+        852
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.07804188829787234,
+      "image_sha256": "c81592769db25340ae325918af6f1134d4a5010e1104c297c1a7875938b8ecf5",
+      "mask_sha256": "ba43b65f5f95995f6e8a1081424126a97216fb03245a1b0531d57cb80dc171d4"
+    },
+    {
+      "id": "shenzhou_01",
+      "split": "train",
+      "original_size": [
+        938,
+        577
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.2533623417721519,
+      "image_sha256": "154e6c77d88011d637a8c0a796c943b5f1106cf2bf6b10182f54d53136be404d",
+      "mask_sha256": "ff2181d1c02a3f2cdb35313b8b135e4d6742e4d43ec326356adf4e3185cc4f78"
+    },
+    {
+      "id": "shuttle_01",
+      "split": "test",
+      "original_size": [
+        3000,
+        1987
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.14494485294117648,
+      "image_sha256": "da2e71c9c36f991c66a75d6965f471980939f0ecdb8b17b5befe242afc874367",
+      "mask_sha256": "401795313e99da555a4ab53280e819ab014af5b2bb2cf1f3012db74de88bd564"
+    },
+    {
+      "id": "shuttle_02",
+      "split": "test",
+      "original_size": [
+        639,
+        638
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.25482177734375,
+      "image_sha256": "cb3438326d220bf6118b5932dcd25f08f6de6944e0779aba131e02c9771ae480",
+      "mask_sha256": "a7d0e4756f08006b76cff51d478da8667539b9ccf65d4c3cf6d5861f21bfb212"
+    },
+    {
+      "id": "shuttle_03",
+      "split": "test",
+      "original_size": [
+        598,
+        427
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.5230082417582418,
+      "image_sha256": "7d30f9314e0e0b0e61a8509e12d6d2630d1ff10b3605ec822ce4ec165b9df92b",
+      "mask_sha256": "625218605c9463aec146eb9f48e13ae28e18e1d5f6c7c9a71252426a3a8d4e95"
+    },
+    {
+      "id": "shuttle_04",
+      "split": "test",
+      "original_size": [
+        1023,
+        679
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.2806066176470588,
+      "image_sha256": "a18c698cc9d4ac78a2de335842689be07f85801bc91b16d263835747eff254d9",
+      "mask_sha256": "95982a33a41233905cff11f3dd93de1578fec76c19d2dde6c8a127fb6de37ba9"
+    },
+    {
+      "id": "shuttle_05",
+      "split": "test",
+      "original_size": [
+        500,
+        350
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.3680555555555556,
+      "image_sha256": "87f470644aa95cef83c320cbf820d62fd67f1f9e8c4a76662f560c62ac26922e",
+      "mask_sha256": "fb3f27dea1d4646187c87501a8456219202974ea3602f07498de85e6ce012386"
+    },
+    {
+      "id": "shuttle_06",
+      "split": "test",
+      "original_size": [
+        640,
+        423
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.06167279411764706,
+      "image_sha256": "2bbf9f1b0a6789434383216602c8c9bfce8a675fd21f23c49c42f81911c47608",
+      "mask_sha256": "63698e969484403c3871ce4393ebd5706f4d7cb66a04adf4bd858e91e520e301"
+    },
+    {
+      "id": "shuttle_07",
+      "split": "test",
+      "original_size": [
+        1511,
+        878
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.033467060810810814,
+      "image_sha256": "c34ef46ecad36f6afd9db8d969295680f17547f4b9b8235e15e50a517e8d4c89",
+      "mask_sha256": "ae7392cc8f91cb16a700f1c4f43c022dae6abda6fe98d57c596fabcee2c6ce4e"
+    },
+    {
+      "id": "soyuz_01",
+      "split": "test",
+      "original_size": [
+        1172,
+        852
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.05401545698924731,
+      "image_sha256": "d21613351ea4a18874f7108a6ab6b68b25bfa5d5918991b1f6fef2117216b2ba",
+      "mask_sha256": "717a90bdb1d8d2526f3a1f4cc52bb05aee570e151f63ac40da864aa3e9e67635"
+    },
+    {
+      "id": "tesla_01",
+      "split": "train",
+      "original_size": [
+        960,
+        720
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.4203287760416667,
+      "image_sha256": "fc63661e8f4908aee01c51c040c0a5fb61e05a8f24777c5bc0ce0170f4ba5e65",
+      "mask_sha256": "883ec8648513879b29b1b64566e8eb7a93fa873dbf8c391d326042063e05f745"
+    },
+    {
+      "id": "tesla_02",
+      "split": "train",
+      "original_size": [
+        1828,
+        640
+      ],
+      "raw_values": [
+        0,
+        255
+      ],
+      "foreground_fraction": 0.32621527777777776,
+      "image_sha256": "39ccfb2c3190a4f37afea0e79ab173057d13994ac2824f1d9c490964f167283d",
+      "mask_sha256": "054a98f8f567e97b3617502a116f94e945cba3bbae7b62e276f0aea2fab43ef5"
+    }
+  ]
+}
