@@ -1,4 +1,4 @@
-# Spacecraft segmentation with additive skip connections
+# Spacecraft Segmentation with Additive Skip Connections
 
 A reproducible Advanced Computer Vision experiment on **100 SATSEG scenes**. Two small encoder-decoders differ only in whether additive encoder-to-decoder skips are enabled.
 
